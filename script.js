@@ -1,4 +1,5 @@
-const apiKey = "324fbd8cad8c6761a2dd247a7c1313ef";
+import API from './api';
+const apiKey = API;
 
 const fetchWeather = (city) => {
 
